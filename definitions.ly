@@ -6,7 +6,14 @@
 \include "ees_articulate.ly"
 
 
+markRequiemDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark \concat { "Requiem da capo " \normalsize \critnote }
+}
+
+
 tempoIntroitus = \tempoMarkup "Adagio"
+  tempoTeDecet = \tempoMarkup "Andante"
 
 
 \include "notes/cnto.ly"
