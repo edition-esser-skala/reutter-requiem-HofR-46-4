@@ -1,0 +1,20 @@
+composer:
+  last: Reutter
+  suffix: der Jüngere
+  first: Georg
+title: Requiem
+id: HofR 46/4
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (org), cnto, fag, 2 clno, 2 trb, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.793
+    date: 1753
+    url: https://data.onb.ac.at/rec/AC14289336
+    license: public domain
+    principal: true
+imslp:
+parts:
+  clno12: Clarino I, II in ?
