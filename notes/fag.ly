@@ -54,3 +54,41 @@ IntroitusFagotto = {
     R\fermata \markRequiemDaCapo \bar "||" %47 finis
   }
 }
+
+KyrieFagotto = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoKyrie
+    r8 c4\fE es d f8~
+    f es4 as8~ as g16 f es8 d
+    c4 r8 g'4 fis a8~
+    a g r c fis,2
+    g8 es16 d es8 c g' g16 a! h8 g %5
+    c8. h16 c8 f, g4. f8
+    es4 r r2
+    R1
+    r8 c4 es d f!8~
+    f es4 as8~ as g16 f es8 d %10
+    c f4 es d c8~
+    c h16 a! h4 c r
+    R1*2
+    r8 g'4 es c16 d es8 d16 c %15
+    as'4 g r8 b,!16 a g4
+    c r r2
+    r8 g4 b a c8~
+    c b4 es8~ es d16 c b8 a
+    g g'16 a b8 c c, es16 d c8 c' %20
+    as as g c~ c b!16 a b8 b
+    b as g4 f r
+    R1
+    r2 r8 f4 es!8~
+    es c16 d! es8 d16 c as'4 as8 as %25
+    g4 g, r8 c16 d es8 c
+    f4 r r8 c4 es8~
+    es d4 f es as8~
+    as g16 f es8 d c b! as4
+    g2 g4. fis8 %30
+    g1
+    c\fermata \bar "|." %32 finis
+  }
+}

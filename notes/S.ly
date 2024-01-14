@@ -104,14 +104,66 @@ IntroitusSopranoLyrics = \lyricmode {
   et. %46 finis
 }
 
+KyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
+    R1*6 %6
+    r8 \mvTr g'4\fE^\tuttiE b! a! c8~
+    c b4 es!8~ es[ d16 c] b8[ a]
+    g4 r8 c4 h d8~
+    d c r f h,2 %10
+    c8 as g4 as g
+    f2 es4 r
+    R1*3 %15
+    r8 c'4 b! g16([ a!] b8[ a16 g)]
+    es'4 d c c8([ b16 a)]
+    b8 b b16([ a g8)] c c c16([ b a8)]
+    a d d c r2
+    r8 g'4 es c16([ d] es8[ d16 c)] %20
+    f4.( es8 des2)
+    c8 c b4 as8 as as16([ g f8)]
+    b b b16([ as g8)] e c' c16([ b as8]
+    g2) as8 as as([ g)]
+    g4 r r8 c4 es8~ %25
+    es d4 f es g8~
+    g[ f16 es] d8[ c] h c r c~
+    c h4( d) c f8
+    h,2 c8 c c4
+    h8 c d4~ d8[ c16 h] c4~ %30
+    c h8[ a] h2
+    c1\fermata \bar "|." %32 finis
+  }
+}
+
+KyrieSopranoLyrics = \lyricmode {
+  Ky -- ri -- e e -- %7
+  lei -- _ _
+  son, e -- lei -- _
+  son, e -- lei -- %10
+  son, e -- lei -- son, e --
+  lei -- son,
+
+  Chri -- ste e -- %16
+  lei -- son, e -- lei --
+  son, e -- lei -- son, e -- lei --
+  son, e -- lei -- son,
+  Chri -- ste e -- %20
+  lei --
+  son, e -- lei -- son, e -- lei --
+  son, e -- lei -- son, e -- lei --
+  son, e -- lei --
+  son, Ky -- ri -- %25
+  e e -- lei -- _
+  _ _ son, e --
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son, e -- lei -- _ %30
+  _ _
+  son. %32 finis
+}
 
 
-% Ky -- ri -- e e -- lei -- son.
-% Chri -- ste e -- lei -- son.
-% Ky -- ri -- e e -- lei -- son.
-
-
-% # Sequentia
 
 % Di -- es ir -- ae, di -- es il -- la
 % sol -- vet sae -- clum in fa -- vil -- la:
