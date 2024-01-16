@@ -90,3 +90,224 @@ KyrieViolinoII = {
     e\fermata \bar "|." %32 finis
   }
 }
+
+SequentiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoSequentia
+    es2\fE es8 es es es
+    es2 es8 es es es
+    es2 es8 es es es
+    d2 r
+    h'8 h h h c4 r8 es, %5
+    d2 c4 r
+    es8 es es es es4 r
+    es8 es c' c c c c c
+    h2 r
+    es,8 f g f es4 as~ %10
+    as f g4. f8
+    f4 f r2
+    g4. g8 es4 es
+    f4. f8 d4 d
+    es8 f g f g2 %15
+    fis4 g2 fis4
+    g2 b
+    b,8 b b b b2
+    b8 b b b b4 r
+    g'8 g g g fis2 %20
+    r fis8 fis fis fis
+    g4 r8 b, a2\trill
+    g4 r r2
+    r r4 g'8 g
+    as16( b) \hA as( b) \hA as( b) \hA as( b) g( \hA as) g( \hA as) g( \hA as) g( \hA as) %25
+    f( g) f( g) f( g) f( g) e8 e f f
+    f e g g g2
+    g4 g8 g f f f f
+    fis2 g4 g8 g \noBreak
+    g4 fis r2\fermata %30
+    \tempoSequentiaB fis4 g8 a b b16 c a8 fis16 a \noBreak
+    g4 r r8 es'16 f d8 h16 d
+    c4 r r8 as16 b! g8 e16 g
+    f4 d8 es d d c c
+    h4 c2 h4 \noBreak %35
+    c1\fermata \bar "||"
+    \time 3/4 \tempoTuba \newSpacingSection
+      R2.*53 %89
+    r4 r8 es'\pE es es %90
+    c4 r8 c c f
+    f4 r8 d d d
+    es4 r r
+    R2.*3 %96
+    r4 r8 fis, fis fis
+    g4 r8 c c c
+    b4 r r
+    R2.*2 %101
+    r4 r8 a a a
+    b4 r r
+    R2.*4 %107
+    r4 r8 es, es es
+    c4 r8 c c f
+    f4 r8 d d d %110
+    c4 c h
+    c r8 c' c c
+    as4 r8 g g g
+    g4 r8 es es es
+    f4 r r %115
+    r r8 d d d
+    es4 r r
+    \once \tieDashed g2.~
+    g2 e4
+    f as2 %120
+    f b4
+    g2.
+    f4 r r
+    r r8 as, as as
+    b4 r8 b b b %125
+    b4 r8 g g g'
+    f4 f e\trill \noBreak
+    f2 r4\fermata \bar "||"
+    \time 4/4 \tempoIudex \newSpacingSection
+      c4\fE r8 c c4 r8 es \noBreak
+    g4. g8 g2 %130
+    r4 g8 g \once \tieDashed g2~
+    g1
+    g4 r8 g, g4 r8 b!
+    b4 g' fis2
+    r r4 fis8 a %135
+    b( a) b( a) \once \slurDashed g( fis) g a16 b
+    a4 r r fis8 fis
+    g g r4 r g8 g
+    g4 g8 g as as g4
+    f c8 c d d c8. f16 %140
+    f4 f8 f es es c4~ \noBreak
+    c b8 c d2
+    \time 3/4 \tempoQuidSum \newSpacingSection
+      d4 r8 d' b d \noBreak
+    es,4 r8 c' a c
+    d,4 r8 b' g b %145
+    c,4 r8 a' fis a
+    b,4 as'8( fis) \once \slurDashed a( c)
+    es( d)-\critnote fis( a) c( fis,)
+    g4 g fis\trill
+    g r r %150
+    r r8 d\pE b d
+    g,4 r r
+    r r8 a fis a
+    d,4 r r
+    r r8 as' f! as %155
+    c,4 r r
+    r r8 g' a! h
+    c4 r r
+    r r8 g' c,4
+    c2 r4 %160
+    R2.*2
+    r4 r8 g\fE es g
+    as,4 r8 f' d f
+    g,4 h'8( g) d'( h) %165
+    as'4. as,8 g f
+    es c c4 h \noBreak
+    c2 r4\fermata \bar "||"
+    \time 4/4 \tempoRex \newSpacingSection
+      as'8(-.\fE as-. as-. as-.) as(-. as-. as-. as-.) \noBreak
+    g(-. g-. g-. g-.) as as as4 %170
+    r2 r4 a8 b
+    ges ges ges f f2
+    r r4 b8 c
+    as as as g g4 g\fermata
+    R1*2 %176
+    f4. g8 e e f g
+    as g f4 f2~
+    f4 ges8 f e4 f~ \noBreak
+    f e f2\fermata \bar "||" %180
+    \time 3/2 \tempoRecordare \newSpacingSection
+      R1.*19 %199
+    r4 f(-.\pE f-. f-. f-. f-.) %200
+    f(-. f-. f-. f-. f-. f-.)
+    f(-. f-. f-. f-. f-. f-.)
+    f2 r r
+    r4 des(-. des-. des-. des-. des-.)
+    f(-. f-. f-. f-. f-. f-.) %205
+    e(-. e-. e-. e-. e-. e-.)
+    e2 r r
+    r4 d(-. d-. d-. d-. d-.)
+    d(-. d-. d-. d-. d-. d-.)
+    d2 r r %210
+    r4 e(-. e-. e-. e-. e-.)
+    e2 r r
+    R1.*2
+    r2 f e \noBreak %215
+    d r r\fermata \bar "||"
+    \time 4/4 \tempoIuste \newSpacingSection
+      g4\fE g8 g g2 \noBreak
+    g4 g8 g g4.-\critnote a8
+    g2 fis
+    f8 f f f es4. es8 %220
+    d4 d8 d es f g g
+    as es es es d2 \noBreak
+    c8 c c h c4 r
+    \tempoIngemisco es1\pE \noBreak
+    f %225
+    es
+    e
+    f
+    es!
+    des~ \noBreak %230
+    des4 f2 e4\trill
+    \tempoQuiMariam f r r2 \noBreak
+    R1*9 %241
+    r4 b8\fE f d b d f
+    b b, g' d b g b d
+    g g, g'8. g16 g4 g8. g16 \noBreak
+    fis8 g fis g g4 fis %245
+    \time 3/2 \tempoOro \newSpacingSection
+      g2 r r \noBreak
+    R1.*29 %275
+    r2 d\fE d
+    a'1.~
+    a2 g f
+    e1.
+    f2 f1 %280
+    f1.
+    e2 cis d4 e
+    f g a2 r
+    r d, e4 fis
+    g a b2 a4 g %285
+    g2 fis r
+    r d es!
+    f!1.
+    es2 e1
+    a,2 d1 %290
+    d2 r r
+    R1.*9 \noBreak %300
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoHuic \newSpacingSection
+      g4.\fE g8 \appoggiatura f es4 es \noBreak
+    es2 es
+    f4. f8 fis4. fis8
+    g2 g4. g8 %305
+    g4 g2 f!4 \noBreak
+    g1
+    \tempoDona R1*5 %312
+    g4. g8 as4 e8 f
+    g4. g8 c,4 g'8 f16 es
+    d2 e4 f %315
+    es d es2
+    d r
+    r c4. c8
+    es!4 h c4. c8
+    g4 r r d'8 g %320
+    f4 g r8 f4 es!8
+    f4 f r8 es4 d8
+    es4 es es es
+    d f~ f8 b, es4~
+    es d es2 %325
+    R1*2
+    g4. g8 as4 e
+    f4. f8 g4 c,8 d
+    es4 d8 c d d4 d8 %330
+    es h h4 r8 d4 d8
+    es4 d8 c d2~
+    d\trill c4 r
+    f2 e\fermata \bar "|." %334 finis
+  }
+}

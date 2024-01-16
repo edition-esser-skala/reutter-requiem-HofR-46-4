@@ -86,3 +86,139 @@ KyrieCornetto = {
     c1\fermata \bar "|." %32 finis
   }
 }
+
+SequentiaCornetto = {
+  \relative c' {
+    \clef soprano
+    \key c \dorian \time 4/4 \tempoSequentia
+    R1*5 %5
+    r2 c'4\fE c
+    c c c c
+    c c c4. c8
+    h4 h g8 a h c16 d
+    es4 es c8 c f es %10
+    d4 d es4. es8
+    es4 d r2
+    es4. es8 c4 c
+    d4. d8 h4 h
+    c4. c8 c2~ %15
+    c4 b! a2
+    g r
+    R1*6 %23
+    r2 r4 c8 c
+    c16( des) c( \hA des) c( \hA des) c( \hA des) b( c) b( c) b( c) b( c) %25
+    as( b) \hA as( b) \hA as( b) \hA as( b) g8 g as as
+    as g c c c2
+    cis4 cis8 cis d d d d
+    es!2 d4 d8 d \noBreak
+    d4 d r2\fermata %30
+    \tempoSequentiaB a8 a b c d d r4 \noBreak
+    h8 h c d es es r4
+    g,8 g as b c c r4
+    as8 as as as g g g g
+    g1 \noBreak %35
+    g\fermata \bar "||"
+    \time 3/4 \tempoTuba \newSpacingSection
+      R2.*91 %127
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoIudex \newSpacingSection
+      R1 \noBreak
+    c4.\fE c8 c4 h %130
+    r g8 g \once \tieDashed g2~
+    g1
+    g4 r r2
+    b!4. b8 a4 a
+    r2 r4 d8 d %135
+    d1
+    d4 a8 a b a a a
+    b b d d es d d d
+    es es r4 r c8 b!
+    as f a8. a16 b8 b c c %140
+    d d b b b a a g \noBreak
+    fis4 g2 fis4
+    \time 3/4 \tempoQuidSum \newSpacingSection
+      g4 r r \noBreak
+    R2.*24 \noBreak %167
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoRex \newSpacingSection
+      es'4.\fE es8 f4 f \noBreak
+    des4. des8 c4 c %170
+    r c8 des es2~
+    es8 es es es es4-\critnote des
+    r des8 es f2~
+    f8 f f f f4 e\fermata
+    R1*3 %177
+    c4. c8 a! a b c
+    des c b2 as4 \noBreak
+    g2 f\fermata \bar "||" %180
+    \time 3/2 \tempoRecordare \newSpacingSection
+      R1.*35 \noBreak %215
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoIuste \newSpacingSection
+      b4.\fE b8 b4 b \noBreak
+    r2 r4 d8 d
+    d4 c d d
+    d8 d d d d4 c %220
+    c8 h h h c d es d
+    c c c c c4 h
+    c r r2
+    \tempoIngemisco R1*8 %231
+    \tempoQuiMariam R1*10 %241
+    r4 b8\fE a b b b a
+    b b b a b b b a
+    b b d8. d16 d8 c a8. a16
+    a8 a a a a2 %245
+    \time 3/2 \tempoOro \newSpacingSection
+      g2 r r \noBreak
+    R1.*30 %276
+    r2 d'\fE d
+    d b1
+    g2 a b
+    a a a %280
+    h h1
+    a2 r r
+    r f g4 a
+    b! c d2 c
+    b b1 %285
+    a r2
+    r d d
+    d1.
+    c2 b! b
+    a1. %290
+    g2 r r
+    R1.*9 %300
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoHuic \newSpacingSection
+      es'4.\fE es8 \appoggiatura d c4 c \noBreak
+    c2 c
+    c4. c8 c4. c8
+    h4 h d4. d8 %305
+    es4 d c4. c8 \noBreak
+    h1
+    \tempoDona R1*3 %310
+    r2 c4. c8
+    es4 h c4. c8
+    g4 c2 b!4~
+    b c8 b as b c4~
+    c b2 as4 %315
+    g2. r4
+    g4. g8 as4 e8 f
+    g4. g8 c,4 c'~
+    c d c2
+    h8 d4 d8 es4 h %320
+    r8 c4 g8 as4 as
+    r8 b!4 f8 g4 g
+    g4. g8 f4 f~
+    f b8 as g4 f8 es
+    f2 es %325
+    R1
+    r2 c'4. c8
+    es!4 h c b
+    as2 g~
+    g4 f g r %330
+    r8 d'4 d8 es h h4
+    c2~ c4 h8 a
+    h4. h8 c4 r
+    as2 g\fermata \bar "|." %334 finis
+  }
+}

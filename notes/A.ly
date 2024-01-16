@@ -170,3 +170,335 @@ KyrieAltoLyrics = \lyricmode {
   _
   son. %32 finis
 }
+
+SequentiaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSequentia
+    R1*5 %5
+    r2 \mvTr g'4\fE^\tutti g
+    g g as as
+    as as a4. a8
+    a8([ g)] g4 r2
+    g8 g g f es es as4~ %10
+    as8 as f4 g g8 f
+    f4 f r2
+    g4. g8 es4 es
+    f4. f8 d4 d
+    es8 f g f g4 g %15
+    fis( g2 fis4)
+    g2 r
+    R1*6 %23
+    r2 r4 g8 g
+    as16([ b) \hA as( b)] \hA as([ b) \hA as( b)] g([ \hA as) g( \hA as)] g([ \hA as) g( \hA as)] %25
+    f([ g) f( g)] f([ g) f( g)] e8 e f f
+    f e g g g2
+    g4 g8 g f f f f
+    fis2 g4 g8 g \noBreak
+    g4 fis r2\fermata %30
+    \tempoSequentiaB fis8 fis g a b b r4 \noBreak
+    g8 g g f g g r4
+    e8 e f g as as r4
+    f8 f f f f f es es
+    d[ g16 f] es8[ d16 c] d2 \noBreak %35
+    c1\fermata \bar "||"
+    \time 3/4 \tempoTuba \newSpacingSection
+      r4 \mvTr c\pE^\solo c \noBreak
+    f8([ e)] f4 as
+    g b as8([ g)]
+    as([ g)] f4 r %40
+    R2.*9 %49
+    r4 c e %50
+    f8([ e)] f4 as
+    g b as8([ g)]
+    as([ g)] f4 as8 es!
+    f([ es)] es4 r
+    r r as8 es %55
+    f([ es)] es4 r
+    r es es
+    f8[( des16 c] des8[ es)] f([ g)]
+    as4 as, as'~
+    as g8([ f)] es([ d!)] %60
+    es([ f)] es4( d)
+    c2 r4
+    r g g
+    c8([ h)] c4 es
+    d f es8([ d)] %65
+    es([ d)] c4 r
+    R2.*2
+    r4 c des
+    es!2. %70
+    des4 d es
+    f2.
+    es4 e f8([ g)]
+    c,2.
+    c4 f as %75
+    ges e f~
+    f8 g as4( g)
+    f r r
+    R2.*49 \noBreak %127
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoIudex \newSpacingSection
+      R1 \noBreak
+    \mvTr g4.\fE^\tutti g8 g4 g %130
+    r g8 g \once \tieDashed g2~
+    g1
+    g4 r r2
+    g4. g8 fis4 fis
+    r2 r4 fis8 a %135
+    b([ a)] b([ a)] g([ fis)] g[ a16 b]
+    a8 a r4 r fis8 fis
+    g g r4 r g8 g
+    g g g g as as g8. g16
+    f8 f c c d d c8. f16 %140
+    f8 f f f es es c c \noBreak
+    c4( b8[ c] d2)
+    \time 3/4 \tempoQuidSum \newSpacingSection
+      d4 r r \noBreak
+    R2.*24 \noBreak %157
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoRex \newSpacingSection
+      \mvTr as'4.\fE^\tutti as8 as4 as \noBreak
+    g4. g8 as4 as %160
+    r2 r4 a8 b
+    ges ges ges f f4 f
+    r2 r4 b8 c
+    as as as g g4 g\fermata
+    R1*2 %166
+    f4. g!8 e e f g
+    as([ g)] f4 f2
+    f4 ges8([ f)] e4 f~ \noBreak
+    f e f2\fermata \bar "||"
+    \time 3/2 \tempoRecordare \newSpacingSection
+      R1.*35 \noBreak %215
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoIuste \newSpacingSection
+      \mvTr g4.\fE^\tutti g8 g4 g \noBreak
+    r2 r4 g8 a
+    g4. g8 fis4 fis
+    f8 f f f es4. es8 %220
+    d d d d es f g g
+    as as a a g2 \noBreak
+    g4 r r \mvTr g8\pE^\solo g
+    \tempoIngemisco g2 g4 g8 g \noBreak
+    as2 as4 as8 g %225
+    es4 es r g8 g
+    e4 e r e8 e
+    f4 f r f8 f
+    ges4 ges r ges8 f
+    des4 des r b'8 as %230
+    ges4 f f8([ c)] c4
+    \tempoQuiMariam R1*10 %241
+    r4 \mvTr f8\fE^\tutti f f f f f
+    f f g fis g g g fis
+    g g g8. g16 g4 g8. g16 \noBreak
+    fis8 g fis g g4(^\critnote fis) %245
+    \time 3/2 \tempoOro \newSpacingSection
+      g2 r r \noBreak
+    R1.*29 %275
+    r2 \mvTr d\fE^\tutti d
+    a'1.~
+    a2 g f
+    e1.
+    f2 f f %280
+    f1.
+    e2 cis d4( e)
+    f( g) a2 r
+    r d, e4( fis)
+    g a b2 a4( g) %285
+    g2 fis r
+    r d es!
+    f!1.
+    es2 e e
+    d1. %290
+    d2 r r
+    R1.*9 \noBreak %301
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoHuic \newSpacingSection
+      \mvTr g4.\fE^\tutti g8 \appoggiatura f es4 es \noBreak
+    es2 es
+    f4. f8 fis4. fis8
+    g4 g g4. g8 %305
+    g4 g g f! \noBreak
+    g1
+    \tempoDona R1*5 %312
+    g4. g8 as4 e8([ f)]
+    g4. g8 c,4 g'8([ f16 es]
+    d2) e4 f( %315
+    es) d es2
+    d r
+    r c4. c8
+    es!4 h c4. c8
+    g4 r r d'8 g %320
+    f4 g r8 f4 es!8
+    f4 f r8 es4 d8
+    es4 es es es
+    d f~ f8[ es16 d] es4~
+    es d es2 %325
+    R1*2
+    g4. g8 as4 e
+    f4. f8 g4 c,8([ d]
+    es4 d8[ c)] d d4 d8 %330
+    es([ h)] h4 r8 d4 d8
+    es4 d8([ c)] \once \tieDashed d2~
+    d4. d8 c4 r
+    f2 e\fermata \bar "|." %334 finis
+  }
+}
+
+SequentiaAltoLyrics = \lyricmode {
+  Di -- es %6
+  i -- rae, di -- es
+  i -- rae, di -- es
+  il -- la
+  sol -- vet, sol -- vet sae -- clum, sol -- %10
+  vet sae -- clum in fa --
+  vil -- la:
+  Te -- ste Da -- vid
+  cum Si -- byl -- la,
+  te -- ste Da -- vid cum Si -- %15
+  byl --
+  la.
+
+  Quan -- tus %24
+  tre -- _ _ _ %25
+  _ _ _ mor est fu --
+  tu -- rus, quan -- do iu --
+  dex est ven -- tu -- rus, quan -- do
+  iu -- dex est ven --
+  tu -- rus, %30
+  cun -- cta, cun -- cta stri -- cte,
+  cun -- cta, cun -- cta stri -- cte,
+  cun -- cta, cun -- cta stri -- cte,
+  cun -- cta, cun -- cta stri -- cte dis -- cus --
+  su -- _ _ %35
+  rus.
+  Tu -- ba
+  mi -- rum, mi --
+  rum spar -- gens
+  so -- num, %40
+
+  tu -- ba %50
+  mi -- rum, mi --
+  rum spar -- gens
+  so -- num per se --
+  pul -- cra
+  re -- gi -- %55
+  o -- num
+  co -- get,
+  co -- get,
+  co -- get o --
+  mnes an -- %60
+  te __ thro --
+  num,
+  tu -- ba
+  mi -- rum, mi --
+  rum spar -- gens %65
+  so -- num
+
+  per se -- %69
+  pul -- %70
+  cra re -- gi --
+  o --
+  num co -- get
+  o --
+  mnes, co -- get %75
+  o -- mnes an --
+  te thro --
+  num.
+
+  Iu -- dex er -- go %130
+  cum se -- de --
+
+  bit,
+  iu -- dex er -- go
+  cum se -- %135
+  de -- _ _ _
+  _ bit, ap -- pa --
+  re -- bit, ap -- pa --
+  re -- bit: Nil in -- ul -- tum re -- ma --
+  ne -- bit, nil in -- ul -- tum re -- ma -- %140
+  ne -- bit, nil in -- ul -- tum re -- ma --
+  ne --
+  bit.
+
+  Rex tre -- men -- dae %169
+  ma -- ie -- sta -- tis, %170
+  qui sal --
+  van -- dos sal -- vas gra -- tis,
+  qui sal --
+  van -- dos sal -- vas gra -- tis:
+
+  Sal -- va me, fons pi -- e -- %177
+  ta -- tis, fons
+  pi -- e -- ta -- _
+  _ tis. %180
+
+  Iu -- ste iu -- dex, %217
+  iu -- dex
+  ul -- ti -- o -- nis,
+  do -- num fac re -- mis -- si -- %220
+  o -- nis, an -- te di -- em, an -- te
+  di -- em ra -- ti -- o --
+  nis. In -- ge --
+  mi -- sco, in -- ge --
+  mi -- sco, tam -- quam %225
+  re -- us: Cul -- pa
+  ru -- bet vul -- tus
+  me -- us: Sup -- pli --
+  can -- ti par -- ce
+  De -- us, par -- ce, %230
+  par -- ce De -- us.
+
+  Con -- fu -- ta -- tis ma -- le -- %242
+  di -- ctis, flam -- mis a -- cri -- bus ad --
+  di -- ctis, vo -- ca me, vo -- ca
+  me cum be -- ne -- di -- %245
+  ctis.
+
+  La -- cry -- %276
+  mo --
+  _ _
+  _
+  sa di -- es
+  il --
+  la, qua re --
+  sur -- get,
+  qua re --
+  sur -- get ex fa --
+  vil -- la
+  iu -- di --
+  can --
+  dus ho -- mo
+  re -- %290
+  us:
+
+  Hu -- ic er -- go %302
+  par -- ce,
+  par -- ce, par -- ce
+  De -- us, pi -- e %305
+  Je -- su Do -- mi --
+  ne,
+
+  do -- na e -- is __ %313
+  re -- qui -- em, a --
+  men, a -- %315
+  men, a --
+  men,
+  do -- na
+  e -- is re -- qui --
+  em, do -- na %320
+  e -- is, do -- na
+  e -- is, do -- na
+  e -- is re -- qui --
+  em, a -- _
+  _ men, %325
+
+  do -- na e -- is %328
+  re -- qui -- em, a --
+  men, do -- na %330
+  e -- is, do -- na
+  e -- is __ re --
+  qui -- em,
+  a -- men. %334 finis
+}
