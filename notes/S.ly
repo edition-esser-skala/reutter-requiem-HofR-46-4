@@ -521,27 +521,127 @@ SequentiaSopranoLyrics = \lyricmode {
   a -- men. %334 finis
 }
 
+OffertoriumSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr as'4\fE^\tuttiE as8 as b4 b8 b
+    b4. b8 b4 as
+    r2 r4 r8 as
+    as4. as8 as2
+    as4 as8 as a4 a8 a %5
+    b8. b16 b4 r2
+    b4 b8 b h4 h8 h
+    c8. c16 c4 r2
+    r c8. c16 c8 c
+    c4 c8 c c4. c8 %10
+    h4 h r2
+    r r4 c
+    h2 b
+    a b4 b
+    as2 g %15
+    r r4 f8\p f
+    f4 es! d2
+    c4 r c'\f c8 c
+    c4 c8 c c4 c8 c
+    c4 c r2 %20
+    c8 c c c16 c des4 c \noBreak
+    c b c r
+    \tempoNeCadant r r8 f f([ des b des] \noBreak
+    g,) es r es' es([ c as c]
+    f,) des r des' des([ b g b] \noBreak %25
+    e,) c r c' c c, r4
+    \tempoInObscurum r as'8 as g4 f~ \noBreak
+    f e f2\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTrh c'1\fE^\tuttiE des2 a \noBreak
+    b2. b4 f2 as4( b)
+    c2. b4 as( f) as( b) %40
+    c2 b~ b4 as g2
+    f c'4 c des1
+    c\breve~
+    c
+    r1 r2 g %45
+    c c4 b! a2 a
+    b b4 as g2 c~
+    c h \once \tieDashed c1~
+    c r
+    r2 g c c4 b %50
+    as\breve
+    as2 as as( g)
+    as1 c
+    des2 a4( b) c2. c4
+    b2 c1 c2 %55
+    as1 g2 c
+    c b4 b b2 as
+    g as g1 \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
+
+OffertoriumSopranoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne
+  Je -- su Chri -- ste,
+  Rex
+  glo -- ri -- ae,
+  li -- be -- ra, li -- be -- ra %5
+  a -- ni -- mas,
+  li -- be -- ra, li -- be -- ra
+  a -- ni -- mas
+  o -- mni -- um fi --
+  de -- li -- um de -- fun -- %10
+  cto -- rum
+  de
+  poe -- nis,
+  poe -- nis in --
+  fer -- ni, %15
+  de pro --
+  fun -- do la --
+  cu: Li -- be -- ra
+  e -- as de o -- re le --
+  o -- nis, %20
+  ne ab -- sor -- be -- at e -- as
+  tar -- ta -- rus,
+  ne ca --
+  dant, ne ca --
+  dant, ne ca -- %25
+  dant, ne ca -- dant
+  in ob -- scu -- _
+  _ rum.
+
+  Quam o -- lim %38
+  A -- bra -- hae, quam
+  o -- lim A -- bra -- %40
+  hae pro -- mi -- si --
+  sti, pro -- mi -- si --
+  sti, __
+
+  et %45
+  se -- mi -- ni e -- ius,
+  se -- mi -- ni e -- _
+  _ ius, __
+
+  et se -- mi -- ni, %50
+  se --
+  mi -- ni e --
+  ius, quam
+  o -- lim A -- bra --
+  hae pro -- mi -- %55
+  si -- sti, et
+  se -- mi -- ni e -- _
+  _ _ _
+  ius.
+}
 
 
-% Do -- mi -- ne Ie -- su Chri -- ste, Rex glo -- ri -- ae,
-% li -- be -- ra a -- ni -- mas o -- mni -- um fi -- de -- li -- um de -- fun -- cto -- rum
-% de poe -- nis in -- fer -- ni, et de pro -- fun -- do la -- cu:
-% Li -- be -- ra e -- as de o -- re le -- o -- nis,
-% ne ab -- sor -- be -- at e -- as tar -- ta -- rus,
-% ne ca -- dant in ob -- scu -- rum.
-% Sed si -- gni -- fer san -- ctus Mi -- cha -- el
-% re -- prae -- sen -- tet e -- as in lu -- cem san -- ctam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
 
-% Ho -- sti -- as et pre -- ces ti -- bi, Do -- mi -- ne,
-% lau -- dis of -- fe -- ri -- mus:
-% Tu su -- sci -- pe pro a -- ni -- ma -- bus il -- lis,
-% qua -- rum ho -- di -- e me -- mo -- ri -- am fa -- ci -- mus.
-% Fac e -- as, Do -- mi -- ne, de mor -- te trans -- i -- re ad vi -- tam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
-
-
-% # Sanctus
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
@@ -571,19 +671,3 @@ SequentiaSopranoLyrics = \lyricmode {
 % Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
 % Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
 % Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
-
-
-% # Responsorium
-
-% Li -- be -- ra me, Do -- mi -- ne, de mor -- te ae -- ter -- na,
-% in di -- e il -- la tre -- men -- da,
-% quan -- do coe -- li mo -- ven -- di sunt et ter -- ra,
-% dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Tre -- mens fa -- ctus sum e -- go, et ti -- me -- o,
-% dum dis -- cus -- si -- o ve -- ne -- rit, at -- que ven -- tu -- ra i -- ra.
-% Di -- es il -- la, di -- es i -- rae,
-% ca -- la -- mi -- ta -- tis et mi -- se -- ri -- ae,
-% di -- es ma -- gna et a -- ma -- ra val -- de.
-% Dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-% Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.

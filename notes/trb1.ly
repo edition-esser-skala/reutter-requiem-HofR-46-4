@@ -304,3 +304,67 @@ SequentiaTromboneI = {
     f2 e\fermata \bar "|." %334 finis
   }
 }
+
+OffertoriumTromboneI = {
+  \relative c' {
+    \clef alto
+    \key f \dorian \time 4/4 \tempoOffertorium
+    f4\fE f8 f f4 f8 f
+    g4. g8 g4 f
+    r2 r4 r8 f
+    f4. f8 f2
+    f4 f8 f f4 f8 f %5
+    f8. f16 f4 r2
+    f4-\critnote f8 f f4 f8 f
+    g8. g16 g4 r2
+    r g8. g16 g8 g
+    g4 g8 g g4 f %10
+    g g r2
+    r r4 f
+    d2 des4 des
+    ges2 f4 f
+    f2. e4 %15
+    R1*2
+    r2 g4\fE g8 g
+    g4 g8 g g4 g8 g
+    as4 as r2 %20
+    f8 f f f16 f f4 e \noBreak
+    f4. f8 e4 r
+    \tempoNeCadant r r8 f f2 \noBreak
+    es!4 es es2
+    des4 des des2 \noBreak %25
+    c4. g'8 as as, r4
+    \tempoInObscurum r f'8 f e4 f \noBreak
+    c2 c\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve \noBreak
+    r1 f\fE
+    as2 e f2. f4 %40
+    c2 d e4 f2 e4
+    f1. b2~
+    b2 as4 g f2 g~
+    g4 g f2 e es
+    d1 es %45
+    r2 c f f4 es
+    d1 es2 es
+    d g4 f e f g2~
+    g f f1
+    r r2 es %50
+    as as4 ges f2 f
+    es f4 f es1
+    es r
+    f as!2 e
+    f1. g2~ %55
+    g f e g4 g
+    g2 g4 g g2 f4 f
+    e2 f1 e2 \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}

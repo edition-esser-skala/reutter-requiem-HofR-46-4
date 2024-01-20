@@ -576,3 +576,111 @@ SequentiaBassoLyrics = \lyricmode {
   men,
   a -- men. %334 finis
 }
+
+OffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr f4\fE^\tuttiE f8 f f4 f8 f
+    e4. e8 f4 f,
+    r2 r4 r8 as'
+    f8_([ as16 g] f[ c as c] f,8.) f16 f4
+    f' f8 f es!4 es8 es %5
+    des8. des16 des4 r2
+    des4 des8 des d4 d8 d
+    es8. es16 es4 r2
+    r es8. es16 es8 es
+    c4 c8 c as4. as8 %10
+    g4 g r2
+    r4 g' g( f)
+    f2 e
+    es des4 des
+    h2 c %15
+    r8 c'\p c c, as4 as
+    g1
+    c4 r c\fE c8 c
+    c4 c8 c b!4 b8 b
+    as4 as r2 %20
+    a8 a a a16 a b4 c \noBreak
+    des4. des8 c4 r8 c'
+    \tempoNeCadant c([ as f as] des,) b r b' \noBreak
+    b([ g es g] c,) as r as'
+    as([ f des f] b,) g r g' \noBreak %25
+    g([ e c e] as,) f r4
+    \tempoInObscurum r h8 h \once \tieDashed c2~ \noBreak
+    c f,\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %42
+    \mvTr f'1\fE^\tuttiE as!2 e
+    f2. f4 c2 es4( f
+    g2) f es c %45
+    R\breve*2
+    r1 r2 c
+    f f4 es! d1
+    es2 es as as4 g %50
+    f2. es4 des1
+    c2 des es1
+    as, r
+    R\breve
+    r2 f' as! e %55
+    f2. f4 c2 es4 f
+    g2 g4 f e2 f4 f
+    c\breve \noBreak
+    f,\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
+
+OffertoriumBassoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne
+  Je -- su Chri -- ste,
+  Rex
+  glo -- ri -- ae,
+  li -- be -- ra, li -- be -- ra %5
+  a -- ni -- mas,
+  li -- be -- ra, li -- be -- ra
+  a -- ni -- mas
+  o -- mni -- um fi --
+  de -- li -- um de -- fun -- %10
+  cto -- rum
+  de poe --
+  nis, de
+  poe -- nis in --
+  fer -- ni, %15
+  et de pro -- fun -- do
+  la --
+  cu: Li -- be -- ra
+  e -- as de o -- re le --
+  o -- nis, %20
+  ne ab -- sor -- be -- at e -- as
+  tar -- ta -- rus, ne
+  ca -- dant, ne
+  ca -- dant, ne
+  ca -- dant, ne %25
+  ca -- dant
+  in ob -- scu --
+  rum.
+
+  Quam o -- lim %43
+  A -- bra -- hae pro --
+  mi -- si -- sti, %45
+
+  et %48
+  se -- mi -- ni e --
+  ius, et se -- mi -- ni %50
+  e -- ius, se --
+  mi -- ni e --
+  ius,
+
+  quam o -- lim %55
+  A -- bra -- hae pro -- mi --
+  si -- sti, et se -- mi -- ni
+  e --
+  ius. %59 finis
+}

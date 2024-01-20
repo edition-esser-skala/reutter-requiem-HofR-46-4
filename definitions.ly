@@ -7,6 +7,10 @@
 
 
 hA = \once \override Accidental.stencil = ##f
+markQuamDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark \concat { "Quam olim da capo " \normalsize \critnote }
+}
 markRequiemDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark \concat { "Requiem da capo " \normalsize \critnote }
@@ -29,6 +33,12 @@ tempoSequentia = \tempoMarkup "Adagio" %60
   tempoOro = \tempoMarkup "Oro supplex · [Tempo deest]" %200
   tempoHuic = \tempoMarkup "Huic ergo · Adagio" %60
   tempoDona = \tempoMarkup "Dona eis · Andante" %100
+tempoOffertorium = \tempoMarkup "Adagio"
+  tempoNeCadant = \tempoMarkup "Andante" %72
+  tempoInObscurum = \tempoMarkup "Adagio" %60
+  tempoSedSignifer = \tempoMarkup "Adagio" %70
+  tempoQuam = \tempoMarkup "Quam olim · Andante" %240
+  tempoHostias = \tempoMarkup "Versus · Adagio" %70
 
 
 \include "notes/cnto.ly"

@@ -311,3 +311,84 @@ SequentiaViolinoII = {
     f2 e\fermata \bar "|." %334 finis
   }
 }
+
+OffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoOffertorium
+    c2\fE des
+    c1
+    as''8(\p g) e( f) des( c) e, f\f
+    f4. f8 f2
+    f4. f8 f4. f8 %5
+    f4 b, ges''8(\p f) \once \slurDashed a,( b)
+    f4.\f f8 f4 f8 f
+    g4 es as'!8(\p g) h,( c)
+    as( g) h,( c) g'4.\f g8
+    g2. f4 %10
+    g2 es'8(\p d) fis,( g)
+    g,4 r r f'\f
+    d2 des
+    ges f
+    f2. e4 %15
+    R1*2
+    r2 g4.\fE g8
+    g4. g8 g4. g8
+    as2 des8(\p c) e,( f) %20
+    f4.\f f8 f4 e \noBreak
+    f2 e4 r
+    \tempoNeCadant r r8 f' f des b des \noBreak
+    g, es r es' es c as c
+    f, des r des' des b g b \noBreak %25
+    e, c r g' as as, r4
+    \tempoInObscurum r as' g f~ \noBreak
+    f e f2\fermata \bar "||"
+    \tempoSedSignifer b,1\p \noBreak
+    es2 f~ %30
+    f4 r16 b( a) b-! f2(
+    es4) r16 ges( f) ges-! es2
+    as,4 f' g c,~
+    c2. b4
+    f'2. b,4~ %35
+    b as8 b c2 \noBreak
+    c1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve \noBreak
+    r1 f\fE
+    as2 e f2. f4 %40
+    c2 d e4 f2 e4
+    f1. b2~
+    b2 as4 g f2 g~
+    g4 g f2 e es
+    d1 es %45
+    r2 c f f4 es
+    d1 es
+    d2 g4 f e f g2~
+    g f f1
+    r r2 es %50
+    as as4 ges f1
+    es2 f es1
+    es r
+    f as!2 e
+    f1. g2~ %55
+    g f e g
+    g1. f2
+    e f1 e2 \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      c'2\p as4( g) \noBreak %60
+    g es c2
+    d1
+    d2 g
+    g2. es4
+    f2 des4 d %65
+    g, c c2
+    c1~
+    c2 des
+    f g!
+    g,1 \noBreak %70
+    g\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}

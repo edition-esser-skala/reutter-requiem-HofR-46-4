@@ -234,3 +234,62 @@ SequentiaFagotto = {
     f2 c'\fermata \bar "|." %334 finis
   }
 }
+
+OffertoriumFagotto = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoOffertorium
+    f,1\fE
+    e2 f
+    r r4 r8 f'
+    f,1
+    f'2 es! %5
+    des r
+    des d
+    es r
+    r es
+    c as %10
+    g r
+    r4 g' g f
+    f2 e
+    es des
+    h c %15
+    R1*2
+    r2 c\fE
+    c b!
+    as r %20
+    a b4 c \noBreak
+    des2 c4 r8 c'
+    \tempoNeCadant c as f as des, b r b' \noBreak
+    b g es g c, as r as'
+    as f des f b, g r g' \noBreak %25
+    g e c e as, f r4
+    \tempoInObscurum r4 h c2~ \noBreak
+    c f,\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %42
+    f'1\fE as!2 e
+    f2. f4 c2 es4 f
+    g2 f es c %45
+    R\breve*2
+    r1 r2 c
+    f f4 es! d1
+    es2 es as as4 g %50
+    f2. es4 des1
+    c2 des es1
+    as, r
+    R\breve
+    r2 f' as! e %55
+    f2. f4 c2 es4 f
+    g2. f4 e2 f
+    c\breve \noBreak
+    f,\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}

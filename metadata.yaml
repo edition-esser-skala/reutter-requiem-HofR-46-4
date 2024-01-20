@@ -5,7 +5,7 @@ composer:
 title: Requiem
 id: HofR 46/4
 genre: requiem
-scoring: S, A, T, B (solo), S, A, T, B (org), cnto, fag, 2 clno, 2 trb, 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (org), cnto, fag, 2 clno (C), 2 trb, 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -18,3 +18,5 @@ sources:
 imslp:
 parts:
   clno12: Clarino I, II in ?
+extra_abbreviations:
+  mdc: maestro di cappella

@@ -502,3 +502,143 @@ SequentiaAltoLyrics = \lyricmode {
   qui -- em,
   a -- men. %334 finis
 }
+
+OffertoriumAlto = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr f4\fE^\tutti f8 f f4 f8 f
+    g4. g8 g4 f
+    r2 r4 r8 f
+    f4. f8 f2
+    f4 f8 f f4 f8 f %5
+    f8. f16 f4 r2
+    f4^\critnote f8 f f4 f8 f
+    g8. g16 g4 r2
+    r g8. g16 g8 g
+    g4 g8 g g4 f %10
+    g g r2
+    r r4 f
+    d2 des4 des
+    ges2 f4 f
+    f2. e4 %15
+    r2 r4 c8\p c
+    h4 c c( h)
+    c r g'\fE g8 g
+    g4 g8 g g4 g8 g
+    as4 as r2 %20
+    f8 f f f16 f f4 e \noBreak
+    f4. f8 e4 r
+    \tempoNeCadant r r8 f f2 \noBreak
+    es!4 es es2
+    des4 des des2 \noBreak %25
+    c4. g'8 as as, r4
+    \tempoInObscurum r f'8 f e4 f \noBreak
+    c2 c\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve \noBreak
+    r1 \mvTr f\fE^\tuttiE
+    as2 e f2. f4 %40
+    c2 d( e4 f2) e4
+    f1. b2~
+    b2 as4( g) f2 g~
+    g4 g f2 e es4 es
+    d1 es %45
+    r2 c f f4 es
+    d1 es2 es
+    d g4 f e f g2~
+    g f f1
+    r r2 es %50
+    as as4 ges f2 f
+    es f4 f es1
+    es r
+    f as!2 e
+    f1. g2~ %55
+    g f e g4 g
+    g2 g4 g g2 f4 f
+    e2( f1 e2) \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \mvTr g8.\pE^\solo g16 g8 g f f f f \noBreak %60
+    es8. f16 g8 g g4 f
+    g8. g16 g4 r d
+    g8. g16 g8 d d es f f
+    es4 es r g8 g
+    as8. as16 as8 as ges4 f8 f %65
+    f4( e8) e f4 r
+    r8 c c c f8. f16 f8 f
+    ges2 f4 f
+    f2 es!4 es
+    d8([ g16 f] es8[ d16 c] d2) \noBreak %70
+    c1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
+
+OffertoriumAltoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne
+  Je -- su Chri -- ste,
+  Rex
+  glo -- ri -- ae,
+  li -- be -- ra, li -- be -- ra %5
+  a -- ni -- mas,
+  li -- be -- ra, li -- be -- ra
+  a -- ni -- mas
+  o -- mni -- um fi --
+  de -- li -- um de -- fun -- %10
+  cto -- rum
+  de
+  poe -- nis, de
+  poe -- nis in --
+  fer -- ni, %15
+  de pro --
+  fun -- do la --
+  cu: Li -- be -- ra
+  e -- as de o -- re le --
+  o -- nis, %20
+  ne ab -- sor -- be -- at e -- as
+  tar -- ta -- rus,
+  ne ca --
+  dant, ne ca --
+  dant, ne ca -- %25
+  dant, ne ca -- dant
+  in ob -- scu -- _
+  _ rum.
+
+  Quam %39
+  o -- lim A -- bra -- %40
+  hae, A -- bra --
+  hae, __ A --
+  bra -- hae pro --
+  mi -- si -- sti, pro -- mi --
+  si -- sti, %45
+  et se -- mi -- ni
+  e -- ius, et
+  se -- mi -- ni e -- _ _
+  _ ius,
+  et %50
+  se -- mi -- ni e -- ius,
+  se -- mi -- ni e --
+  ius,
+  quam o -- lim
+  A -- _ %55
+  bra -- hae pro -- mi --
+  si -- sti, et se -- mi -- ni
+  e --
+  ius.
+  Ho -- sti -- as et pre -- ces ti -- bi, %60
+  Do -- mi -- ne, lau -- dis of --
+  fe -- ri -- mus: Tu
+  su -- sci -- pe pro a -- ni -- ma -- bus
+  il -- lis, qua -- rum
+  ho -- di -- e me -- mo -- ri -- am %65
+  fa -- ci -- mus.
+  Fac e -- as, Do -- mi -- ne, de
+  mor -- te trans --
+  i -- re ad
+  vi -- %70
+  tam. %71 finis
+}

@@ -551,3 +551,131 @@ SequentiaTenoreLyrics = \lyricmode {
   qui -- em,
   a -- men. %334 finis
 }
+
+OffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \dorian \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr c4\fE^\tutti c8 c des4 des8 des
+    c4. c8 c4 c
+    r2 r4 r8 c
+    c4. c8 c2
+    c4 c8 c c4 c8 c %5
+    des8. des16 des4 r2
+    f4 f8 f d4 d8 d
+    c8. c16 c4 r2
+    r es8. es16 es8 es
+    es4 es8 es es4 d8([ c)] %10
+    d4 d r2
+    r4 g, \once \tieDashed as!2~
+    as g4 g
+    c2 des4 des
+    d2. c4 %15
+    r2 r4 as8\p as
+    d,4 g g2
+    g4 r es'\fE es8 es
+    es4 es8 es e4 e8 e
+    f4 f r2 %20
+    es!8 es es es16 es des4 g, \noBreak
+    f4. f8 g4 r
+    \tempoNeCadant r r8 as as2 \noBreak
+    g4 g g2
+    f4 f f2 \noBreak %25
+    e4. e8 f f r4
+    \tempoInObscurum r d'!8 d g,[ c16 b] as8[ g16 f] \noBreak
+    g2 f\fermata \bar "||"
+    \tempoSedSignifer r4 \mvTr des'\pE^\solo es8. es16 es4 \noBreak
+    c4. c8 des8. des16 des4 %30
+    r2 b8 b b f
+    ges ges r4 as8 as as es
+    f f b4 b as
+    g!2 a4 b~
+    b as2 g8[ f] %35
+    e[ c] as'4 g2 \noBreak
+    f1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*3 %40
+    r1 \mvTr c'\fE^\tutti
+    des2 a b2. b4
+    f2 as4 b c2.( b4)
+    as1 g2 c
+    c( h) c1 %45
+    R\breve*2
+    g1 c2 c4 c
+    a2 a b b4 as
+    g1 as2 r %50
+    r as des des4 des
+    es2 des4 c b1
+    c r
+    r r2 c
+    des a4( b) c2. c4 %55
+    c1. c4 es!^\critnote
+    d2 d4 d c2 c4 c
+    c\breve
+    c\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
+
+OffertoriumTenoreLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne
+  Je -- su Chri -- ste,
+  Rex
+  glo -- ri -- ae,
+  li -- be -- ra, li -- be -- ra %5
+  a -- ni -- mas,
+  li -- be -- ra, li -- be -- ra
+  a -- ni -- mas
+  o -- mni -- um fi --
+  de -- li -- um de -- fun -- %10
+  cto -- rum
+  de poe --
+  nis, de
+  poe -- nis in --
+  fer -- ni, %15
+  de pro --
+  fun -- do la --
+  cu: Li -- be -- ra
+  e -- as de o -- re le --
+  o -- nis, %20
+  ne ab -- sor -- be -- at e -- as
+  tar -- ta -- rus,
+  ne ca --
+  dant, ne ca --
+  dant, ne ca -- %25
+  dant, ne ca -- dant
+  in ob -- scu -- _
+  _ rum.
+  Sed si -- gni -- fer
+  san -- ctus Mi -- cha -- el %30
+  re -- prae -- sen -- tet
+  e -- as, re -- prae -- sen -- tet
+  e -- as in lu -- cem
+  san -- _ _
+  _ _ %35
+  _ _ _
+  ctam.
+
+  Quam %41
+  o -- lim A -- bra --
+  hae pro -- mi -- si --
+  sti, pro -- mi --
+  si -- sti, %45
+
+  et se -- mi -- ni %48
+  e -- ius, se -- mi -- ni
+  e -- ius, %50
+  et se -- mi -- ni,
+  se -- mi -- ni e --
+  ius,
+  quam
+  o -- lim A -- bra -- %55
+  hae pro -- mi --
+  si -- sti, et se -- mi -- ni
+  e --
+  ius. %59 finis
+}

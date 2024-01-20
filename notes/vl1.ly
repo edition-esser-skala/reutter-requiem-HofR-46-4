@@ -308,3 +308,84 @@ SequentiaViolinoI = {
     as2 g\fermata \bar "|." %334 finis
   }
 }
+
+OffertoriumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoOffertorium
+    as'2\fE b~
+    b2. as4
+    as'8(\p g) e( f) des( c) e, f\f
+    as4. as8 as2
+    as4. as8 a4. a8 %5
+    b2 ges'8(\p f) a,( b)
+    b4\f b8 b h4 h8 h
+    c2 as'!8(\p g) h,( c)
+    as( g) h,( c) c'4.\f c8
+    c4. c8 c4. c8 %10
+    h2 es8(\p d) fis,( g)
+    g,4 r r c'\f
+    h2 b
+    a b
+    as g %15
+    R1*2
+    r2 c4.\fE c8
+    c4. c8 c4. c8
+    c2 des8(\p c) e,( f) %20
+    c'4.\f c8 des4 c~ \noBreak
+    c b c r
+    \tempoNeCadant r r8 f f des b des \noBreak
+    g, es r es' es c as c
+    f, des r des' des b g b \noBreak %25
+    e, c r c' c c, r4
+    \tempoInObscurum r as' g f~ \noBreak
+    f e f2\fermata \bar "||"
+    \tempoSedSignifer f2\p ges \noBreak
+    a b %30
+    r16 \once \slurDashed b( a) b-! f des'( c) des-! b2
+    r16 \once \slurDashed b( a) b-\parenthesize-! ges es'( d) es-! c2
+    des4 f, e f~
+    f es2 des4
+    c2 des4 b'8( as!) %35
+    g4 f2 e4 \noBreak
+    f1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      c'1\fE des2 a \noBreak
+    b2. b4 f2 as4 b
+    c2. b4 as f as b %40
+    c2 b~ b4 as g2
+    f c'4 c des1
+    \once \tieDashed c\breve~
+    c
+    r1 r2 g %45
+    c c4 b! a1
+    b2 b4 as g2 c~
+    c h \once \tieDashed c1~
+    c r
+    r2 g c c4 b %50
+    as\breve
+    as1. g2
+    as1 c
+    des2 a4 b c2. c4
+    b2 c1 c2 %55
+    as1 g2 c~
+    c b1 as2
+    g as g1 \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      es'!2\p d~ \noBreak %60
+    d4 c c2
+    h1
+    h2. d4
+    es2. c4
+    c2 b!4 as %65
+    g2 as
+    as1
+    a2 b
+    h c
+    h4 c2 h4 \noBreak %70
+    c1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}

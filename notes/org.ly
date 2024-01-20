@@ -870,3 +870,168 @@ SequentiaBassFigures = \figuremode {
   r
   <_->2 <_!> %334 finis
 }
+
+OffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoOffertorium
+    \mvTr f,1\fE-\tutti
+    e2 f
+    r r4 r8 f'
+    f,1
+    f'2 es! %5
+    des r
+    des d
+    es r
+    r es
+    c as %10
+    g r
+    r4 g' g f
+    f2 e
+    es des
+    h c %15
+    R1*2
+    r2 c\fE
+    c b!
+    as r %20
+    a b4 c \noBreak
+    des2 c4 r
+    \tempoNeCadant f,2 b \noBreak
+    es! as,
+    des g, \noBreak %25
+    c f,4 r
+    \tempoInObscurum r4 h c2~ \noBreak
+    c f,\fermata \bar "||"
+    \tempoSedSignifer \mvTr b1\pE-\solo \noBreak
+    b %30
+    b
+    es2 as,
+    des c
+    c f,
+    f b %35
+    c1 \noBreak
+    f,\fermata \bar "||"
+    \clef treble \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTr c'''1\fE-\tutti des2 a \noBreak
+    << {
+      b2. b4 f2 as4 b
+      c2. b4 as f as b %40
+      c2 b
+    } \\ {
+      s1 f
+      as2 e f2. f4-\critnote %40
+      c2 d
+    } >> \clef "treble_8" c1
+    des2 a b2. b4
+    \clef bass f1 as2 e
+    f2. f4 c2 es4 f
+    g2 f es c %45
+    \clef treble << {
+      c'' c4 b! a1
+      b2 b4 as g2 c
+    } \\ {
+      r2 c, f f4 es
+      d1 es
+    } >>
+    \clef "treble_8" g, c2 \clef bass c,
+    f f4 es! d1
+    es2 es as as4 g %50
+    f2. es4 des1
+    c2 des es1
+    as, \clef treble c''
+    << { des2 a4 b c2 } \\ { f,1 as2 } >> \clef "treble_8" c,
+    des \clef bass f, as! e %55
+    f2. f4 c2 es4 f
+    g2. f4 e2 f
+    c\breve \noBreak
+    f,\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \mvTr c'2\pE-\solo c4 h \noBreak %60
+    c2 as
+    g1
+    g
+    c
+    f,2 b4 h %65
+    c2 f,
+    f'1
+    es!2 des
+    d c
+    g1 \noBreak %70
+    c\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
+
+OffertoriumBassFigures = \figuremode {
+  <[5 3]>2 <6- 4>
+  <6 5-> <9 4>4 <8 3>
+  r1
+  r
+  r2 <4[!] 2> %5
+  <6>1
+  <\t>2 <6!>
+  <6>1
+  r2 <[6]>
+  r <7>4 <6> %10
+  \bo <[_!]>1
+  r4 \bc q <2-> <5 _->
+  <4! _->2 <7- 5->
+  <4! _-> <6>
+  <7- 5 [_!]> <9 4>4 <8 _!> %15
+  r1*2
+  r1
+  r2 <4! 2>
+  <6>1 %20
+  <6 5[-]>2 <_->4 <_!>
+  <7> <6> <_!>2
+  r <7 _->
+  <7-> <7>
+  q <7 5-> %25
+  <7 _!>1
+  r4 <7 5 [_!]> <5 _!> <6 4>
+  <5 \t> <\t _!>2.
+  <[5 _-]>2 <6- 4>
+  <7! 4 2> <8 5 _-> %30
+  r1
+  <_->
+  <5>4 <6> <7 _!> <6 4>
+  <5 \t> <\t _-> <7 _!> <6- 4>
+  <5 \t> <\t _-> <7 _-> \bassFigureExtendersOn <6 _->8 <5 _-> \bassFigureExtendersOff %35
+  <5 _!>4 <6 4> <5 \t> <\t _!>
+  r1
+  r\breve
+  r
+  r %40
+  r1 <7 _!>4 <6 4> <5 \t> <\t _!>
+  r2 <6> <_->1
+  <5 4>2 <\t 3> <6> <[6]>
+  <9> <8> <_!> <[6]>
+  <5 4> <4!> <6>1 %45
+  r\breve
+  r
+  <5 4>2 <\t _!> <_!> q
+  <9 _!>4 <8 \t>2. <6>1
+  r\breve %50
+  r
+  <6>1 <4>2 <3>
+  r\breve
+  r1. <_!>2
+  <6> <_!> <6> <[6]> %55
+  <9> <8> <_!> <6>
+  <5 4> <\t 3> <6 5>1
+  <5 _!>2 <6 4> <5 \t> <\t _!>
+  r\breve
+  <[_-]>2 <4 2>4 <6 5> %60
+  \bo <[9]> \bc <[8]> <7> <6>
+  \bo <[8] _!>1
+  \bc <[\t] \t>2. <7 \t>4
+  r1
+  r2 <6- _->4 <7- 5 [_!]> %65
+  \bo <[5!] 4> \bc <[\t] _!>2.
+  r1
+  <4! _->2 <6>
+  <6!> <[5! _-]>
+  <[5] _!>4 <6 4> <5 \t> <\t _!> %70
+  r1 %71 finis
+}

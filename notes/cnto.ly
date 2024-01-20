@@ -222,3 +222,67 @@ SequentiaCornetto = {
     as2 g\fermata \bar "|." %334 finis
   }
 }
+
+OffertoriumCornetto = {
+  \relative c' {
+    \clef soprano
+    \key f \dorian \time 4/4 \tempoOffertorium
+    as'4\fE as8 as b4 b8 b
+    b4. b8 b4 as
+    r2 r4 r8 as
+    as4. as8 as2
+    as4 as8 as a4 a8 a %5
+    b8. b16 b4 r2
+    b4 b8 b h4 h8 h
+    c8. c16 c4 r2
+    r c8. c16 c8 c
+    c4 c8 c c4. c8 %10
+    h4 h r2
+    r r4 c
+    h2 b
+    a b4 b
+    as2 g %15
+    R1*2
+    r2 c4\fE c8 c
+    c4 c8 c c4 c8 c
+    c4 c r2 %20
+    c8 c c c16 c des4 c \noBreak
+    c b c r
+    \tempoNeCadant r r8 f f des b des \noBreak
+    g, es r es' es c as c
+    f, des r des' des b g b \noBreak %25
+    e, c r c' c c, r4
+    \tempoInObscurum r as'8 as g4 f~ \noBreak
+    f e f2\fermata \bar "||"
+    \tempoSedSignifer R1*8 \noBreak %36
+    R1\fermata \bar "||"
+    \time 2/1 \tempoQuam \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      c'1\fE des2 a \noBreak
+    b2. b4 f2 as4 b
+    c2. b4 as f as b %40
+    c2 b~ b4 as g2
+    f c'4 c des1
+    \once \tieDashed c\breve~
+    c
+    r1 r2 g %45
+    c c4 b! a2 a
+    b b4 as g2 c~
+    c h \once \tieDashed c1~
+    c r
+    r2 g c c4 b %50
+    as\breve
+    as1 as2 g
+    as1 c
+    des2 a4 b c2. c4
+    b2 c1 c2 %55
+    as1 g2 c
+    c b4 b b2 as
+    g as g1 \noBreak
+    f\breve\fermata \bar "||"
+    \time 4/4 \tempoHostias \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*11 \noBreak %70
+    R1\fermata \markQuamDaCapo \bar "||" %71 finis
+  }
+}
