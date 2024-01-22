@@ -730,3 +730,108 @@ SanctusBassoLyrics = \lyricmode {
   a, o -- san -- na in ex --
   cel -- sis. %18 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \autoBeamOff \tempoBenedictus
+    r4 \mvTr b'\pE^\solo es,
+    f es es
+    as as8([ g)] as([ f)]
+    g4 es r
+    R2.*8 %12
+    r4 b' es,
+    f es es
+    as as8([ g)] as([ f)] %15
+    g4 es r
+    f8[( g16 as] b8[ as]) g[( f])
+    g([ f)] g4 r
+    c( a8[ g)] f([ es)]
+    d([ c)] b4 b' %20
+    b a8[ b] c4~
+    c8[ a] b4 g
+    g f8[ g] as4~
+    as8[ f] g4 g
+    a8[ c16 b] a8[ g f es] %25
+    d[ f] b([ a)] b([ d)]
+    g, es f4. f8
+    b,4 r r
+    R2.*5 %33
+    r4 f' b
+    as! b, as' %35
+    g8([ f)] es4 b'
+    c8([ b)] as([ g)] f([ es)]
+    d8. c16 b4 g'
+    f2( g4)\trill
+    as2 a4 %40
+    g2( a4)\trill
+    b r b
+    g2 f8 g
+    as!2.~
+    as8[ f d f b, as'] %45
+    g[ b16 as] g8[ b es, g]
+    c,[ c'16 b] as8[ c f, as]
+    d,[ as' g f g es]
+    c[ es] b4. b8
+    es,4 r r %50
+    R2.*8 \noBreak %58
+    R2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      R1*3 %62
+    r8 \mvTr g'\fE^\tuttiE e c f g as4
+    g r8 g es c r c'
+    as f r4 r f8 es! %65
+    d4. c8 h4 c
+    as2 g~
+    g c\fermata \bar "|." %68 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit,
+
+  be -- ne -- %13
+  di -- ctus, qui
+  ve -- nit, qui %15
+  ve -- nit,
+  be -- ne --
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui %20
+  ve -- _ _
+  nit, qui
+  ve -- _ _
+  nit in
+  no -- _ %25
+  _ _ _
+  mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %34
+  di -- ctus, qui %35
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi -- ni, qui
+  ve --
+  nit, qui %40
+  ve --
+  nit in
+  no -- mi -- ne
+  Do --
+  %45
+  _ _
+  _ _
+  _
+  _ _ mi --
+  ni. %50
+
+  O -- san -- na in ex -- cel -- %63
+  sis, o -- san -- na, o --
+  san -- na in ex -- %65
+  cel -- _ _ _
+  _ _
+  sis. %68 finis
+}

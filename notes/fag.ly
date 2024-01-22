@@ -318,3 +318,20 @@ SanctusFagotto = {
     f2 c\fermata \bar "|." %18 finis
   }
 }
+
+BenedictusFagotto = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoBenedictus
+    R2.*58 \noBreak %58
+    R2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      R1*3 %62
+    r8 g'\fE e c f g as4
+    g r8 g es c r c'
+    as f r4 r f8 es! %65
+    d4. c8 h4 c
+    as2 \once \tieDashed g~
+    g c\fermata \bar "|." %68 finis
+  }
+}

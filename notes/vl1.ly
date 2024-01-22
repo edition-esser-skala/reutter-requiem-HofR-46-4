@@ -414,3 +414,69 @@ SanctusViolinoI = {
     c1\fermata \bar "|." %18 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoBenedictus
+    R2.*3
+    r8 b\fE g es' es es
+    es([ d)] des des b' des, %5
+    des([ c)] f f f f
+    f([ e)] es es c' es,
+    es([d!)] b( f') as,( f')
+    g,( es') g( b) des,( b')
+    c,( es) as( c) f,( as) %10
+    d,!4~ d8 b'16 c \appoggiatura es d8 c16 b
+    es8 es,16( f) f2\trill
+    es4 r r
+    R2.*2 %15
+    r8 b\p es es es es
+    es d r4 r
+    r8 b b' b b b
+    b a r4 r
+    r r8 d, d d %20
+    d([ c)] es es es es
+    es([ d)] d d es es
+    es([ d)] f f f f
+    f( es) r4 r
+    R2.*3 %27
+    r8 f\f d b' b b
+    b([ a)] f( c') es,( c')
+    d,( b') d( f) as,!( f') %30
+    g,( b) es( g) c,( es)
+    a,4~ a8 f'16 g \appoggiatura b a8 g16 f
+    b8 b,16( c) c2\trill
+    b4 r r
+    R2.*3 %37
+    r4 r8 d,\p es es
+    es([ d)] des des b' des,
+    des([ c)] f f f f %40
+    f([ e)] es es c' es,
+    es([ d)] b( f') as,!( f')
+    g,( es') g( b) des,( b')
+    c,( es) as( c) f,( as)
+    d,!4 r r %45
+    R2.*4
+    r8 b\f g es' es es %50
+    es([ d)] des des b' des,
+    \once \slurDashed des([ c)] f f f f
+    f([ e)] es es c' es,
+    es([ d!)] b( f') as,( f')
+    g,( es') g( b) des,( b') %55
+    \once \slurDashed c,( es) as( c) f,( as)
+    d,!4~ d8 b'16 c \appoggiatura es d8 c16 b
+    es8 es,16( f) f2\trill \noBreak
+    es2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      r8 c'\fE h g c d es4 \noBreak %60
+    d c~ c8 h c f~
+    f es d4 es8 d4 c8~
+    c h \once \tieDashed c4~ c2
+    h8 d h g r g' es c
+    r4 as8 b c2~ %65
+    c4 h8 c d4 es
+    c2 h4 c~
+    c h c2\fermata \bar "|." %68 finis
+  }
+}

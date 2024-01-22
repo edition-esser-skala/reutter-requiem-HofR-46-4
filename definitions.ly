@@ -40,6 +40,8 @@ tempoOffertorium = \tempoMarkup "Adagio"
   tempoQuam = \tempoMarkup "Quam olim · Andante" %240
   tempoHostias = \tempoMarkup "Versus · Adagio" %70
 tempoSanctus = \tempoMarkup "Adagio"
+tempoBenedictus = \tempoMarkup "Andante"
+  tempoOsanna = \tempoMarkup "Andante"
 
 
 \include "notes/cnto.ly"

@@ -311,3 +311,22 @@ SanctusCornetto = {
     c2 c\fermata \bar "|." %18 finis
   }
 }
+
+BenedictusCornetto = {
+  \relative c' {
+    \clef soprano
+    \key es \major \time 3/4 \tempoBenedictus
+    R2.*58 \noBreak %58
+    R2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      r8 c'\fE h g c d es4 \noBreak %60
+    d c c8 h c f~
+    f es d4 es8 d4 \once \tieDashed c8~
+    c h \once \tieDashed c4~ c2
+    h8 d h g r g' es c
+    r4 as8 b c2~ %65
+    c4 h8 c d4 es
+    c2 h4 c~
+    c h c2\fermata \bar "|." %68 finis
+  }
+}

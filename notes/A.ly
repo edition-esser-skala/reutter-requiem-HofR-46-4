@@ -688,3 +688,33 @@ SanctusAltoLyrics = \lyricmode {
   a, o -- san -- na in ex --
   cel -- sis. %18 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*58 \noBreak %58
+    R2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      R1 \noBreak %60
+    r8 \mvTr g'\fE^\tuttiE e c f g as4
+    g g g2
+    f8 g g g as g g([ f)]
+    g4 r8 d es es r g
+    as as f g as4. g8 %65
+    f4. g8 g4 g
+    g f2 es4
+    d2 c\fermata \bar "|." %68 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  O -- san -- na in ex -- %61
+  cel -- sis, o -- san --
+  na, o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o --
+  san -- na in ex -- cel -- _ %65
+  _ sis, in ex --
+  cel -- _ _
+  _ sis. %68 finis
+}

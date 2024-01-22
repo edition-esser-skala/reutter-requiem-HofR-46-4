@@ -687,16 +687,39 @@ SanctusSopranoLyrics = \lyricmode {
   cel -- sis. %18 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*58 \noBreak %58
+    R2.\fermata \bar "||"
+    \key c \dorian \time 4/4 \tempoOsanna \newSpacingSection
+      r8 \mvTr c'\fE^\tutti h g c d es4 \noBreak %60
+    d c c8 h c f
+    f[ es] d4 es8 d4 \once \tieDashed c8~
+    c[ h] \once \tieDashed c4~ c2
+    h8 d h g r g' es c
+    r4 as8 b c2~ %65
+    c4 h8[ c] d4 es
+    c2 h4 c~
+    c h c2\fermata \bar "|." %68 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  O -- san -- na in ex -- cel -- %60
+  sis, o -- san -- na in ex --
+  cel -- _ _ _ _
+  _
+  sis, o -- san -- na, o -- san -- na
+  in ex -- cel -- %65
+  _ _ _
+  _ _ _
+  _ sis. %68 finis
+}
 
 
 
-
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% # Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Do -- na e -- is re -- qui -- em.
