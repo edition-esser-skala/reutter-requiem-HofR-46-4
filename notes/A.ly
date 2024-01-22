@@ -642,3 +642,49 @@ OffertoriumAltoLyrics = \lyricmode {
   vi -- %70
   tam. %71 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'2.(\fE^\tutti f4)
+    g2~ g4 r
+    g1~
+    g2 f4 r
+    f2. es!4~ %5
+    es as d,2
+    e4 e8 e e4 e8 e
+    f4 f fis fis8 a
+    g4 g g fis
+    g1 %10
+    g4 g8 g g4 g8 g
+    g2 g
+    r2 g8[ as16( g)] f8[ g16( f)]
+    es8[ f] g4~ g8 f4 c8
+    c2 d4 d8 d %15
+    d4 ( es d2)
+    c4 g' as8 as g e
+    as2 g\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San --
+  ctus, __
+  san --
+  ctus,
+  san -- _ %5
+  _ ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. %10
+  Ple -- ni sunt coe -- li et
+  ter -- ra
+  glo -- _
+  _ _ _ ri --
+  a, glo -- ri -- a %15
+  tu --
+  a, o -- san -- na in ex --
+  cel -- sis. %18 finis
+}

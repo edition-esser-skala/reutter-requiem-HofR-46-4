@@ -684,3 +684,49 @@ OffertoriumBassoLyrics = \lyricmode {
   e --
   ius. %59 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c2(\fE^\tutti as')
+    g~ g4 r
+    g2 f
+    e f4 r
+    f2 h,4 c %5
+    as2 g
+    c4 c8 c b!4 b8 b
+    as4 as a a8 a
+    b!4 c d4. d8
+    g,1 %10
+    g'4 g8 g c4 g8 g
+    c,2 g
+    g'8[ as16( g)] f8[ g16( f)] es8[ f16( es)] d8[ es16( d)]
+    c4 e8 e f4. e8
+    f2 fis4. fis8 %15
+    g2 g,
+    c4 e f8 f e c
+    f2 c\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San --
+  ctus, __
+  san -- _
+  _ ctus,
+  san -- _ _ %5
+  _ ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. %10
+  Ple -- ni sunt coe -- li et
+  ter -- ra
+  glo -- _ _ _
+  _ ri -- a, glo -- ri --
+  a, glo -- ri -- %15
+  a tu --
+  a, o -- san -- na in ex --
+  cel -- sis. %18 finis
+}

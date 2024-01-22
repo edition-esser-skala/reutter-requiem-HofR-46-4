@@ -389,3 +389,28 @@ OffertoriumViolinoI = {
     c1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoSanctus
+    c'1\fE
+    h2~ h4 r
+    b1~
+    b2 as4 r
+    c2 d4 es! %5
+    c2 h
+    c4 c8 c c4 c8 c
+    c2 c4 c8 c
+    d4 c8 b! a4. a8
+    g1 %10
+    h4. h8 c4 h8 d
+    es2 d
+    R1
+    c8 des16( c) b8 c16( b) as8 b16( as) g8 as16( g)
+    f8 g as4 a4. a8 %15
+    g1
+    g4 c c2
+    c1\fermata \bar "|." %18 finis
+  }
+}

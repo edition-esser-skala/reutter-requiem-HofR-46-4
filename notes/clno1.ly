@@ -80,3 +80,26 @@ SequentiaClarinoI = {
     f2 e!\fermata \bar "|." %334 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    g''2.\fE f4
+    g8 g16 g g g g g g4 r
+    g1~
+    g2 f4 r
+    r2 g4 g %5
+    g f g2
+    e8 e16 e e e e e e8 e16 e e e e e
+    f8. f16 f4 fis8 fis16 fis fis fis fis fis
+    g8. g16 g8 g g e fis4\trill
+    g8 g16 g g g g g g2 %10
+    g4 g8 g g4 g8 g
+    g2 g4 r
+    R1*3 %15
+    r2 g4 g8 g
+    g4 r r \pa c,,8 c
+    c c16 c c8 c c2\fermata \pd \bar "|." %18 finis
+  }
+}

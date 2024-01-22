@@ -286,3 +286,28 @@ OffertoriumCornetto = {
     R1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
 }
+
+SanctusCornetto = {
+  \relative c' {
+    \clef soprano
+    \key c \dorian \time 4/4 \tempoSanctus
+    c'1\fE
+    \once \tieDashed h2~ h4 r
+    \once \tieDashed b1~
+    b2 as4 r
+    c2 d4 es! %5
+    c2 h
+    c4 c8 c c4 c8 c
+    c4 c c c8 c
+    d4 c8 b! a4. a8
+    g1 %10
+    h4 h8 h c4 h8 d
+    es2 d
+    R1
+    c8 des16( c) b8 c16( b) as8 b16( as) g8 as16( g)
+    f8 g as as a4 a8 a %15
+    g1
+    g4 c c8 c c c
+    c2 c\fermata \bar "|." %18 finis
+  }
+}

@@ -1035,3 +1035,49 @@ OffertoriumBassFigures = \figuremode {
   <[5] _!>4 <6 4> <5 \t> <\t _!> %70
   r1 %71 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoSanctus
+    \mvTr c2\fE-\tutti as'
+    \once \tieDashed g~ g4 r
+    g2 f
+    e f4 r
+    f2 h,4 c %5
+    as2 g
+    c b!
+    as a
+    b!4 c d2
+    g,1 %10
+    g'4. g8 c4 g
+    c,2 g
+    g'8 as16( g) f8 g16( f) es8 f16( es) d8 es16( d)
+    c4 e f8 f4 e8
+    f2 fis %15
+    g g,
+    c4 e f e8 c
+    f2 c\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2 <7>4 <6>
+  <_!>1
+  <_->2 <[6-] 4 2>
+  <7- 5>4 <6 \t> <_->2
+  q <6 5>4 <[_-]> %5
+  <7> <6> <_!>2
+  q <4!>
+  <6> <6\\>
+  <6> <4>4 <_+>
+  r1 %10
+  <_!>2. q4
+  <9> <8> <_!>2
+  q4 <4!> <6> \bo <[6! _]>
+  r <6> <9 _->8 \bc <[8 _]> <[6-] 4 2> <6>
+  <_->2 <6 5 [_!]> %15
+  <5 _!>4 <6 4> <5 \t> <\t _!>
+  r <[6]> <_-> <[6]>
+  <_->1 %18 finis
+}

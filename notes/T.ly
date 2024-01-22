@@ -679,3 +679,49 @@ OffertoriumTenoreLyrics = \lyricmode {
   e --
   ius. %59 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr es2(\fE^\tutti c)
+    d~ d4 r
+    d2 des~
+    des4 c c r
+    as2 g4 g~ %5
+    g f g2
+    g4 g8 g g4 g8 g
+    as4 as c c8 c
+    b!4 es a,4. d8
+    d1 %10
+    d4 d8 d es4 d8 d
+    d4( c) h2
+    h4 h8 h c4 d8 d
+    es g, r4 c8[ des16( c)] b8[ c16( b)]
+    as?8[ b] c c c4 c8 c %15
+    h4( c2 h4)
+    c c c8 c e e
+    f2 e\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus, __
+  san -- _
+  _ ctus,
+  san -- \xE ctus, san -- %5
+  _ \x ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. %10
+  Ple -- ni sunt coe -- li et
+  ter -- ra
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a, glo -- _
+  _ ri -- a, glo -- ri -- a %15
+  tu --
+  a, o -- san -- na in ex --
+  cel -- sis. %18 finis
+}

@@ -293,3 +293,28 @@ OffertoriumFagotto = {
     R1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
 }
+
+SanctusFagotto = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoSanctus
+    c2\fE as'
+    \once \tieDashed g~ g4 r
+    g2 f
+    e f4 r
+    f2 h,4 c %5
+    as2 g
+    c b!
+    as a
+    b!4 c d2
+    g,1 %10
+    g'4. g8 c4 g
+    c,2 g
+    \slurDashed g'8 as16( g) f8 g16( f) \slurSolid es8 f16( es) d8 es16( d)
+    c4 e f8 f4 e8
+    f2 fis %15
+    g g,
+    c4 e f e8 c
+    f2 c\fermata \bar "|." %18 finis
+  }
+}

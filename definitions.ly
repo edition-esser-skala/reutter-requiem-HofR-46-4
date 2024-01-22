@@ -39,6 +39,7 @@ tempoOffertorium = \tempoMarkup "Adagio"
   tempoSedSignifer = \tempoMarkup "Adagio" %70
   tempoQuam = \tempoMarkup "Quam olim · Andante" %240
   tempoHostias = \tempoMarkup "Versus · Adagio" %70
+tempoSanctus = \tempoMarkup "Adagio"
 
 
 \include "notes/cnto.ly"
