@@ -743,7 +743,7 @@ AgnusSoprano = {
     h1\fermata \bar "||"
     \time 2/2 \tempoCumSanctis \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
-      \mvTr c1\fE^\tutti \noBreak
+      \mvDl c1\fE^\tutti \noBreak
     \time 2/1 \markTwoOneTime es2. d4 c2 h
     c( d) g, h4 h %35
     c\breve~
