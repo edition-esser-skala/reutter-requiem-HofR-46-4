@@ -7,6 +7,10 @@
 
 
 hA = \once \override Accidental.stencil = ##f
+markCumSanctisDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark \concat { "Cum Sanctis da capo " \normalsize \critnote }
+}
 markQuamDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark \concat { "Quam olim da capo " \normalsize \critnote }
@@ -14,6 +18,10 @@ markQuamDaCapo = {
 markRequiemDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark \concat { "Requiem da capo " \normalsize \critnote }
+}
+markTwoOneTime = {
+  \once \override Score.RehearsalMark.outside-staff-priority = #150
+  \markTimeSig #'(2 1)
 }
 
 
@@ -42,6 +50,10 @@ tempoOffertorium = \tempoMarkup "Adagio"
 tempoSanctus = \tempoMarkup "Adagio"
 tempoBenedictus = \tempoMarkup "Andante"
   tempoOsanna = \tempoMarkup "Andante"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoCumSanctis = \tempoMarkup "Cum Sanctis · [Alla breve]"
+  tempoQuiaPius = \tempoMarkup "Grave"
+  tempoRequiem = \tempoMarkup "Adagio"
 
 
 \include "notes/cnto.ly"

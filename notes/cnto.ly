@@ -330,3 +330,52 @@ BenedictusCornetto = {
     c h c2\fermata \bar "|." %68 finis
   }
 }
+
+AgnusCornetto = {
+  \relative c' {
+    \clef soprano
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*14 %14
+    r2 r4 as'8\fE as %15
+    a4 a8 a b4 b8 b
+    as4. as8 g4 g
+    r2 b4 b
+    b b as8. as16 as4
+    c4. c8 h8. h16 h4 %20
+    d es h4. c8
+    d4 g, g8 a! h c
+    c4 h8 a h2
+    c1
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      c1\fE \noBreak
+    \time 2/1 \markTwoOneTime es2. d4 c2 h
+    c d g, h4 h %35
+    c\breve~
+    c2 b!1 as2
+    g c~ c2. d4
+    es2 d c h4 a!
+    h2 c4 c c1 %40
+    c d
+    es d2 d
+    es2. d4 c2 h
+    c d g, h
+    c h es d %45
+    es d4 c h1
+    c\breve \noBreak
+    h
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 c des2 \noBreak
+    r4 c h c \noBreak %50
+    c h8. h16 c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 c4\fE c8 c4 d
+    es4. es8 d d d d %55
+    d4. d8 es c4 c8
+    h4 c2 h4
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}

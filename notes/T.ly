@@ -753,3 +753,110 @@ BenedictusTenoreLyrics = \lyricmode {
   _ sis, in ex --
   cel -- sis. %68 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr es8\pE^\solo es d4 d8 d
+    d4 c8 c c4 c
+    h h r2
+    r4 h8 h b2
+    a4 a8 a a4 b %5
+    a4. a8 g4 r
+    r2 r4 d'8 d
+    b4 a8 g es'4 es8 es
+    es4 d8 d d4 d
+    c c r2 %10
+    r4 c8 c c2
+    des4 des~ des8 c16([ b)] as8 as
+    g4. g8 f4 r
+    R1
+    r2 r4 \mvTr c'8\fE^\tutti c %15
+    c4 c8 c des4 b8 b
+    b4. b8 b4 b
+    r2 b4 b
+    c c c8. c16 c4
+    d!4. d8 d8. d16 d4 %20
+    r2 d4 es
+    h4. c8 d4. es8
+    d1
+    c
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R1 \noBreak
+    \time 2/1 \markTwoOneTime R\breve*4 %37
+    \mvTr c1\fE^\tutti es2. d4
+    c2 h c( d)
+    g, g4 g c1~ %40
+    c1. h2
+    c1 h
+    r r2 d
+    es( d4 c) h2 d
+    es2. d4 c2 h %45
+    c( d) g, d'4 d
+    c\breve \noBreak
+    d
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 c8 c as4 as \noBreak
+    r es'8 es d!4 es \noBreak %50
+    d4. d8 c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 \mvTr es4\fE^\tutti es8 es4 d
+    c4. c8 h h h h %55
+    h4. h8 c4 c8 d16 d
+    d4 es8 es d2 \noBreak
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na, do --
+  na, do -- na e -- is %5
+  re -- qui -- em.
+  A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di: %10
+  Do -- na, do --
+  na, do -- na e -- is
+  re -- qui -- em.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di:
+  Do -- na
+  e -- is re -- qui -- em,
+  do -- na re -- qui -- em %20
+  sem -- pi --
+  ter -- _ _ _
+  _
+  nam.
+
+  Cum San -- ctis, %38
+  San -- ctis tu --
+  is in ae -- ter -- %40
+  _
+  _ num,
+  cum
+  San -- ctis, cum
+  San -- ctis, San -- ctis %45
+  tu -- is in ae --
+  ter --
+  num,
+  qui -- a pi -- us,
+  qui -- a pi -- us, %50
+  pi -- us es.
+
+  Do -- na e -- is, %54
+  Do -- mi -- ne: Et lux per -- %55
+  pe -- tu -- a lu -- ce -- at,
+  lu -- ce -- at e --
+  is. %58 finis
+}

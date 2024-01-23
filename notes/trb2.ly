@@ -364,3 +364,60 @@ BenedictusTromboneII = {
     g2 g\fermata \bar "|." %68 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*2
+    r2 \mvTr h8\pE-\solo h c16( h c) c-!
+    c8 h r4 r2
+    R1 %5
+    r2 r4 b!8 b
+    c16( b c) c-! c( b c) c-! b4 r
+    R1*2
+    r2 a8 a b16( a b) b-! %10
+    a4 r r2
+    R1
+    r2 r8 c c16( b c) c-!
+    des4 b~ b8 as16 g as8 g16( f)
+    g2 f4 \mvTr c'8\fE-\tutti c %15
+    c4 c8 c des4 b8 b
+    b4. b8 b4 b
+    r2 b4 b
+    c c c8. c16 c4
+    d!4. d8 d8. d16 d4 %20
+    r2 d4 es
+    h4. c8 d4. es8
+    d1
+    c
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R1 \noBreak
+    \time 2/1 \markTwoOneTime R\breve*4 %37
+    c1\fE es2. d4
+    c2 h c d
+    g, g4 g c1~ %40
+    c1. h2
+    c1 h
+    r r2 d
+    es d4 c h2 d
+    es2. d4 c2 h %45
+    c d g, d'
+    c\breve \noBreak
+    d
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 c8 c as4 as \noBreak
+    r es'8 es d!4 es \noBreak %50
+    d4. d8 c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 es4\fE es8 es4 d
+    c4. c8 h h h h %55
+    h4. h8 c4 c8 d
+    d4 es d2 \noBreak
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}

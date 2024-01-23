@@ -480,3 +480,58 @@ BenedictusViolinoI = {
     c h c2\fermata \bar "|." %68 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*14 %14
+    r2 r4 as'8\fE as %15
+    a4. a8 b2
+    as g
+    b8\p b c16( b c) c-! b2\f
+    b as
+    c h %20
+    d4 es h4. c8
+    d4 g, g8 a! h c
+    c4 h8 a h2
+    c1
+    b!2\p as4 b %25
+    c( b) b2~
+    b c~
+    c b~
+    b as~
+    as \once \tieDashed g~
+    g c, \noBreak
+    d1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      c'1\f \noBreak
+    \time 2/1 \markTwoOneTime es2. d4 c2 h
+    c d g, h %35
+    c\breve~
+    c2 b!1 as2
+    g c~ c2. d4
+    es2 d c h4 a!
+    h2 c c1 %40
+    c d
+    es d2 d
+    es2. d4 c2 h
+    c d g, h
+    c h es d %45
+    es d4 c h1
+    c\breve \noBreak
+    h
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 c des2 \noBreak
+    r4 c h c~ \noBreak %50
+    c h c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 c4\fE c8 c4 d
+    es2 d^\critnote %55
+    d4. d8 es c4 c8
+    h4 c2 h4
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}

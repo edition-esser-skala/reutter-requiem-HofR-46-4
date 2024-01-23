@@ -835,3 +835,105 @@ BenedictusBassoLyrics = \lyricmode {
   _ _
   sis. %68 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr c8\pE^\solo c c4 h8 h
+    c4 c8 c as'4 as
+    g g r2
+    r4 g c,2
+    cis4. cis8 c4 b!8([ c)] %5
+    d4. d8 g,4 r
+    R1
+    r4 g'8 g g4 a8 a
+    b4 b8 b b4 b,
+    f' f r2 %10
+    r r4 f8 f
+    b,4. b8 c4 c
+    c4. c8 f,4 r
+    R1
+    r2 r4 \mvTr f'8\fE^\tutti f %15
+    es!4 es8 es des4 des8 des
+    d4. d8 es4 es
+    r2 es4 es
+    e4. e8 f8. f16 f4
+    fis4. fis8 g8. g16 g4 %20
+    g,1~
+    g~
+    g4 g g2
+    c1
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+    \time 2/1 \markTwoOneTime R\breve*6 %39
+    \mvTr g'1\fE^\tuttiE as2. g4 %40
+    f2 e f( g)
+    c, es4 f g1~
+    g g,~
+    g g~
+    g g~ %45
+    g g
+    as\breve \noBreak
+    g
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 es'8 es f4 f \noBreak
+    r fis8 fis g4 c, \noBreak %50
+    g4. g8 c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 \mvTr c4\fE^\tutti c8 es4 h
+    c4. c8 g g' g g %55
+    f4. f8 es4 as8 g16 f
+    g2( g,)
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na,
+  do -- na e -- is __ %5
+  re -- qui -- em.
+
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %10
+  Do -- na,
+  do -- na e -- is
+  re -- qui -- em.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di:
+  Do -- na
+  e -- is re -- qui -- em,
+  do -- na re -- qui -- em %20
+  sem --
+
+  pi -- ter --
+  nam.
+
+  Cum San -- ctis, %40
+  San -- ctis tu --
+  is in ae -- ter --
+  \xE num, __
+  in __
+  ae -- %45
+  ter --
+  _
+  \x num,
+  qui -- a pi -- us,
+  qui -- a pi -- us, %50
+  pi -- us es.
+
+  Do -- na e -- is, %54
+  Do -- mi -- ne: Et lux per -- %55
+  pe -- tu -- a lu -- ce -- at,
+  e --
+  is. %58 finis
+}

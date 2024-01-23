@@ -718,21 +718,105 @@ BenedictusSopranoLyrics = \lyricmode {
   _ sis. %68 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*14 %14
+    r2 r4 \mvTr as'8\fE^\tutti as %15
+    a4 a8 a b4 b8 b
+    as4. as8 g4 g
+    r2 b4 b
+    b b as8. as16 as4
+    c4. c8 h8. h16 h4 %20
+    d es h4.( c8
+    d4) g, g8([ a!)] h([ c)]
+    c4_( h8[ a] h2)
+    c1
+    \mvTr b!4.\pE^\solo b8 c4 b8 b %25
+    as2 g
+    b4 c8 d es4 es
+    es f8 es d4 d
+    d es8 d c4 c
+    c d8 c h4. d8 %30
+    es4 d c4. c8 \noBreak
+    h1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTr c1\fE^\tutti \noBreak
+    \time 2/1 \markTwoOneTime es2. d4 c2 h
+    c( d) g, h4 h %35
+    c\breve~
+    c2 b!1 as2
+    g c~ c2. d4
+    es2 d c h4 a!
+    h2 c4 c c1 %40
+    c d
+    es d2 d
+    es2. d4 c2 h
+    c( d) g, h
+    c h es d %45
+    es( d4 c) h1
+    c\breve \noBreak
+    h
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 c8 c des4 des \noBreak
+    r c8 c h4 c \noBreak %50
+    c( h8.) h16 c2\fermata \bar "||"
+    \tempoRequiem r2 \mvTr c4.\pE^\solo c8 \noBreak
+    h4 c c( h)
+    c8 \mvTr c4\fE^\tutti c8 c4 d
+    es4. es8 d d d d %55
+    d4. d8 es c4 c16 c
+    h4( c2 h4)
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}
 
-
-
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em sem -- pi -- ter -- nam.
-
-
-% # Communio
-
-% Lux ae -- ter -- na lu -- ce -- at e -- is, Do -- mi -- ne.
-% Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
-% Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-% Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
-% Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di:
+  Do -- na
+  e -- is re -- qui -- em,
+  do -- na re -- qui -- em %20
+  sem -- pi -- ter --
+  nam, sem -- pi --
+  ter --
+  nam.
+  Lux ae -- ter -- na, ae -- %25
+  ter -- na
+  lu -- ce -- at e -- is,
+  lu -- ce -- at e -- is,
+  lu -- ce -- at e -- is,
+  lu -- ce -- at e -- is, %30
+  e -- is Do -- mi --
+  ne.
+  Cum
+  San -- ctis, San -- ctis
+  tu -- is in ae -- %35
+  ter --
+  _ _
+  num, in __ ae --
+  ter -- _ _ _ _
+  num, in ae -- ter -- %40
+  \xE num, ae --
+  ter -- \x num, cum
+  San -- ctis, San -- ctis
+  tu -- is, cum
+  San -- ctis tu -- is %45
+  in __ ae --
+  ter --
+  num,
+  qui -- a pi -- us,
+  qui -- a pi -- us, %50
+  pi -- us es.
+  Re -- qui --
+  em ae -- ter --
+  nam do -- na e -- is,
+  Do -- mi -- ne: Et lux per -- %55
+  pe -- tu -- a lu -- ce -- at
+  e --
+  is. %58 finis
+}

@@ -118,3 +118,36 @@ BenedictusClarinoI = {
     g4 g8 g e2\fermata \bar "|." %68 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*22 %22
+    g''4\fE g8 g g4 g8 g
+    e1
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+    \time 2/1 \markTwoOneTime R\breve*8 %41
+    \pa g,2\fE g4 g g g g2 \pd
+    R\breve
+    r1 r2 \pa g
+    g g4 g g2 g4 g %45
+    g1 g'~
+    g f \pd \noBreak
+    g\breve
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1 \noBreak
+    r2 g4 g \noBreak %50
+    g g8 g e2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 g4\fE g8 g4 g8 g
+    g g16 g g8 g g4 r %55
+    R1
+    r2 g8 g16 g g8 g
+    e1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}

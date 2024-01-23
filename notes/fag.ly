@@ -335,3 +335,46 @@ BenedictusFagotto = {
     g c\fermata \bar "|." %68 finis
   }
 }
+
+AgnusFagotto = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*14 %14
+    r2 r4 f\fE %15
+    es!2 des
+    d es
+    r es
+    e f
+    fis g %20
+    \tieDashed g,1~
+    g~ \tieSolid
+    g
+    c
+    R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \time 2/2 \tempoCumSanctis \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+    \time 2/1 \markTwoOneTime R\breve*6 %39
+    g'1\fE as2. g4 %40
+    f2 e f g
+    c, es4 f g1~
+    g \once \tieDashed g,~
+    g \once \tieDashed g~
+    g \once \tieDashed g~ %45
+    g g
+    as\breve \noBreak
+    g
+    \time 4/4 \tempoQuiaPius \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 es' f2 \noBreak
+    r4 fis g c, \noBreak %50
+    g2 c2\fermata \bar "||"
+    \tempoRequiem R1*2
+    r8 c4\fE c8 es4 h
+    c4. c8 g4 g' %55
+    f2 es4 as8 g16 f
+    g2 g,
+    c1\fermata \markCumSanctisDaCapo \bar "||" %58 finis
+  }
+}
